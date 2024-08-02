@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+.navbar{
+    padding: 10px;
+    display: flex;
+    justify-content:space-between;
+    border-bottom: black solid 1px;
+    gap: 30px;
+    align-items: center;/*mingle of position will be come to an alignment*/
+
+}
+
+
+.navbar__s1__title{
+    color: #A435F0;
+}
+.navbar__s2{
+    padding: 10px;
+    border: solid black 1px;
+    border-radius:30px;
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+.navbar__s2 input{/*selecting the input field*/
+    border: none;
+    font-size: 16px;
+    width: 100%;
+    
+}
+.navbar__s2 input:focus{/*the black border will be removed*/
+    outline: none;
+}
+.navbar__s3{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+.categories{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    border-bottom: solid black 1px;
+}
+.categories p{
+    background-color: #A435F0;
+    color: aliceblue;
+    border-radius: 30px;
+    padding: 8px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.categories p:hover{
+    background-color: #3d0661;
+    color: aliceblue;
+}
+
+.udemyimage img{
+    width: 100%;
+}
+
+.recomendation{
+    padding: 10px;
+}
+.recomendation__container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    flex-wrap: wrap;    
+}
+.course-card{
+    width: 300px;
+
+}
+.course-card img{
+    width: 100%;
+    height: 50%;
+}
+.topics{
+    padding: 10px;
+}
+.tipoic__container{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+.tipoic__container p:hover{
+    background-color: gray;
+    color: aliceblue;
+}
+.tipoic__container p{
+    border: solid gray 2px;
+    flex-grow: 1;
+    flex-basis: 25%;
+    padding: 10px;
+}
+.popular{
+    padding: 10px;
+    margin: 10px;
+      
+}
+.popular__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.footer{
+    background-color: black;
+    color: aliceblue;
+    margin: 10px;
+}
+.footer__one{
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+    gap: 20px;
+}
+.footer__one p{
+    margin: 10px;
+}
+.footer__two{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    text-align: center;
+}
